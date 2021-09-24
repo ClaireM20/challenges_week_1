@@ -178,13 +178,13 @@ else {
 // otherwise log number to the console
 let num = 17
  if (num % 3 ==0) {
-     console.log(um, "fizz")
+     console.log("fizz")
  }
- else (num % 5 ==0) {
-     console.log (num,"buzz")
+ else if (num % 5 ==0) {
+     console.log ("buzz")
  }
- else (num % 3 ==) && (num% 5 == 0) {
-     console.log (num, "fizzbuzz")
+ else if (num % 3 ==0 && num% 5 == 0) {
+     console.log ("fizzbuzz")
  }
  else {
      console.log(num)
